@@ -1,13 +1,11 @@
 {
   "name": "ecommerce",
   "version": "1.0.0",
-  "description": "Hi! My name is **Abhishek Singh**, I have created this tutorial to teach MERN Stack for free on YouTube.",
   "main": "backend/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node backend/server.js",
-    "dev": "nodemon backend/server.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false && npm install --prefix frontend && npm run build --prefix frontend"
+    "dev": "nodemon backend/server.js"
   },
   "author": "",
   "license": "ISC",

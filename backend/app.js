@@ -28,10 +28,25 @@ app.use("/api/v1", user);
 app.use("/api/v1", order);
 app.use("/api/v1", payment);
 
-app.use(express.static(path.join(__dirname, "../frontend/build")));
+// app.use(express.static(path.join(__dirname, "../frontend/build")));
+
+app.get("/",()=>{
+  try {
+    res.status(200).json({
+      success: true,
+      message: "Welcome to the backend of the ecommerce app"
+    })
+  } catch (error) {
+    console.error(error);
+    
+  }
+})
 
 app.get("*", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "../frontend/build/index.html"));
+  // res.sendFile(path.resolve(__dirname, "../frontend/build/index.html"));
+  res.status(404).json({
+    success: false,
+    });
 });
 
 // Middleware for Errors

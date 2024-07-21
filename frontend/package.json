@@ -34,6 +34,9 @@
     "web-vitals": "^1.1.2",
     "webfontloader": "^1.6.28"
   },
+  "proxy":"https://e-commerce-website-qglg.onrender.com",
+  
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -57,11 +60,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy":"https://e-commerce-website-qglg.onrender.com",
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "devDependencies": {},
-  "author": "",
-  "license": "ISC"
+  }
+  
 }
