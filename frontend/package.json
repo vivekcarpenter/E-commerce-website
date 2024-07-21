@@ -34,7 +34,7 @@
     "web-vitals": "^1.1.2",
     "webfontloader": "^1.6.28"
   },
-  "proxy":"https://e-commerce-website-qglg.onrender.com",
+  "proxy":"https://e-commerce-website-xatf.onrender.com",
   
 
   "scripts": {
