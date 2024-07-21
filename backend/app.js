@@ -30,7 +30,7 @@ app.use("/api/v1", payment);
 
 // app.use(express.static(path.join(__dirname, "../frontend/build")));
 
-app.get("/",()=>{
+app.get("/",(req,res,next)=>{
   try {
     res.status(200).json({
       success: true,
