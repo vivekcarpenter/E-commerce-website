@@ -58,5 +58,10 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://192.168.119.18:4000"
+  "proxy":"https://e-commerce-website-qglg.onrender.com",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
