@@ -32,7 +32,8 @@
     "redux-devtools-extension": "^2.13.9",
     "redux-thunk": "^2.3.0",
     "web-vitals": "^1.1.2",
-    "webfontloader": "^1.6.28"
+    "webfontloader": "^1.6.28",
+    "http-proxy-middleware": "^2.0.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -60,13 +61,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "proxy": {
-    "/api": {
-      "target": "https://e-commerce-website-xatf.onrender.com",
-      "changeOrigin": true,
-      "secure": false
-    }
   },
   "devDependencies": {
     "eslint": "^7.32.0",
