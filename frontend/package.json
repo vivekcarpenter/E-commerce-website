@@ -34,9 +34,8 @@
     "web-vitals": "^1.1.2",
     "webfontloader": "^1.6.28"
   },
-  "proxy":"https://e-commerce-website-xatf.onrender.com",
   
-
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -60,6 +59,7 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy":"https://e-commerce-website-xatf.onrender.com"
   
 }
