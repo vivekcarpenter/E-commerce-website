@@ -39,7 +39,6 @@ import {
 import axios from "axios";
 
 // Login
-// Login
 export const login = (email, password) => async (dispatch) => {
   try {
     dispatch({ type: LOGIN_REQUEST });
@@ -54,13 +53,9 @@ export const login = (email, password) => async (dispatch) => {
 
     dispatch({ type: LOGIN_SUCCESS, payload: data.user });
   } catch (error) {
-    dispatch({ 
-      type: LOGIN_FAIL, 
-      payload: error.response?.data?.message || error.message 
-    });
+    dispatch({ type: LOGIN_FAIL, payload: error.response.data.message });
   }
 };
-
 
 // Register
 export const register = (userData) => async (dispatch) => {
